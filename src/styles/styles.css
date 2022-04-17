@@ -1,0 +1,12 @@
+#circle1 {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+#circle1:hover + .hide {
+  display: block;
+  fill: black;
+}
